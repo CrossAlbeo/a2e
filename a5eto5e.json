@@ -32,39 +32,39 @@
 			"source":"a5eto5e",
 			"shortName":"Inquisitor",
             "subclassSpells":[
-				"sanctuary",
-				"zephyr strike|xge",
-				"warding bond",
-				"calm emotions",
-				"beacon of hope",
-				"create food and water",
-				"dimension door",
-				"locate creature",
-				"commune",
-				"moon path|eilistraeenorders"
+				"Comprehend Languages",
+                "Animal Messenger",
+                "Augury",
+                "Tongues",
+                "Sending",
+                "Dpeak with Dead",
+                "Divination",
+                "Dream",
+                "Legend Lore",
+                "Modify Memory"
 			],
 			"additionalSpells":[
 				{
 					"prepared":{
 						"3":[
-							"sanctuary",
-							"zephyr strike|xge"
+							"Comprehend Languages"
 						],
 						"5":[
-							"warding bond",
-							"calm emotions"
+							"Animal Messenger",
+							"Augury"
 						],
 						"9":[
-							"beacon of hope",
-							"create food and water"
+							"Tongues",
+							"Sending",
+                            "Dpeak with Dead"
 						],
 						"13":[
-							"dimension door",
-							"locate creature"
+							"Divination"
 						],
 						"17":[
-							"commune",
-							""
+							"Dream",
+							"Legend Lore",
+                            "Modify Memory"
 						]
 					}
 				}
