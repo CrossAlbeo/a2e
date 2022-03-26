@@ -1,0 +1,303 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+	"_meta":{
+		"sources":[
+			{
+				"json":"a5eto5e",
+				"abbreviation":"A5E",
+				"full":"Advanced 5 Edition to 5 Edition",
+				"authors":[
+					"EN Publish"
+				],
+				"version":"015",
+				"url":"https://www.levelup5e.com/",
+				"targetSchema":"1.0.0",
+				"convertedBy": [
+					"CrossAlbeo"
+				]
+			}
+		],
+		"dateAdded": 1648325841,
+		"dateLastModified": 1648325841
+	},
+    "subclass":[
+		{
+			"name":"Inquisitor",
+			"subclassFeatures":[
+				"Oath of the Inquisitors|Paladin||Inquisitor|a5eto5e|3",
+				"Mark of the Heretic|Paladin||Inquisitor|a5eto5e|7",
+				"Divine Justice|Paladin||Inquisitor|a5eto5e|15",
+				"Ear for Deceit|Paladin||Inquisitor|a5eto5e|20"
+			],
+			"source":"a5eto5e",
+			"shortName":"Inquisitor",
+            "subclassSpells":[
+				"sanctuary",
+				"zephyr strike|xge",
+				"warding bond",
+				"calm emotions",
+				"beacon of hope",
+				"create food and water",
+				"dimension door",
+				"locate creature",
+				"commune",
+				"moon path|eilistraeenorders"
+			],
+			"additionalSpells":[
+				{
+					"prepared":{
+						"3":[
+							"sanctuary",
+							"zephyr strike|xge"
+						],
+						"5":[
+							"warding bond",
+							"calm emotions"
+						],
+						"9":[
+							"beacon of hope",
+							"create food and water"
+						],
+						"13":[
+							"dimension door",
+							"locate creature"
+						],
+						"17":[
+							"commune",
+							""
+						]
+					}
+				}
+			],
+			"className":"Paladin",
+			"classSource":"PHB"
+		}
+	],
+	"subclassFeature":[
+		{
+			"name":"Oath of the Inquisitors",
+			"entries":[
+				"These knights of judgment seek those who would commit heresy against the faith or order they are oathed to, and to strike them down with impunity. What each of these heralds considers heresy is however as varied as the causes that they strive for. Typically an inquisitor is part of a larger order in service of a deity or crown family, and is sworn to defend their name at any cost.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Inquisitor|Paladin||Inquisitor|a5eto5e|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin||Inquisitor|a5eto5e|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Compelling Inquiry|Paladin||Inquisitor|a5eto5e|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Inquisitorial Challenge|Paladin||Inquisitor|a5eto5e|3"
+				}
+			],
+			"source":"a5eto5e",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"a5eto5e",
+			"level":3,
+			"header":1
+		},
+		{
+			"name":"Tenets of the Inquisitors",
+			"entries":[
+				"All inquisitors hold similar tenets, regardless of the deity they serve.",
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Have Faith",
+							"entries":[
+								"Have faith in yourself, your actions, and above all the order which you serve."
+							]
+						}
+					]
+				},
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Loyalty Above All",
+							"entries":[
+								" Your word is your bond, and loyalty is an integral part of who you are."
+							]
+						}
+					]
+				},
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Question Everyone",
+							"entries":[
+								"All outside of your order should be regarded as potential heretics, lest worldly connections prevent you from carrying out your duty."
+							]
+						}
+					]
+				},
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Without Mercy",
+							"entries":[
+								"You must pass judgment without mercy as you carry out divine retribution."
+							]
+						}
+					]
+				}
+			],
+			"source":"a5eto5e",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"a5eto5e",
+			"level":3,
+			"header":2
+		},
+		{
+			"name":"Oath Spells",
+			"entries":[
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type":"table",
+					"caption":"Inquisitors Spells",
+					"colLabels":[
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles":[
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":[
+						[
+							"3rd",
+							"{@spell Sanctuary}, {@spell Zephyr Strike|xge}"
+						],
+						[
+							"5th",
+							"{@spell Warding bond}, {@spell Calm Emotions}"
+						],
+						[
+							"9th",
+							"{@spell Beacon of Hope}, {@spell Create Food and Water}"
+						],
+						[
+							"13th",
+							"{@spell Dimension Door}, {@spell Locate Creature}"
+						],
+						[
+							"17th",
+							"{@spell Commune}, {@spell Moon Path|a5eto5e}"
+						]
+					]
+				}
+			],
+			"source":"a5eto5e",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"a5eto5e",
+			"level":3,
+			"header":2
+		},
+		{
+			"name":"Channel Divinity: Compelling Inquiry",
+			"entries":[
+				"{@i 3rd-level Inquisitor feature}",
+				"When questioning a creature with which you share a language, you can use your Channel Divinity to compel it to speak the truth. The creature makes a Constitution saving throw or finds itself unable to be dishonest for 1 minute. Regardless of whether it succeeds or fails, you know the outcome of the saving throw."
+			],
+			"source":"a5eto5e",
+			"page":10,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"a5eto5e",
+			"level":3,
+			"header":2
+		},
+		{
+			"name":"Channel Divinity: Inquisitorial Challenge",
+			"entries":[
+				"{@i 3rd-level Inquisitor feature}",
+				"You can use a bonus action and your Channel Divinity to issue a challenge of combat to one creature you can see within 30 feet. The creature makes a Wisdom saving throw or it is unable to move more than 30 feet away from you and has disadvantage on attacks against creatures other than you for 1 minute."
+			],
+			"source":"a5eto5e",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"a5eto5e",
+			"level":3,
+			"header":2
+		},
+		{
+			"name":"Mark of the Heretic",
+			"entries":[
+				"{@i 7th-level Inquisitor feature}",
+				"Beginning at 7th level, you gain the ability to mark your foes for judgment by speaking aloud their name and the crime they must answer for. As a bonus action, choose one creature you can see within 30 feet of you. The target is marked for 1 minute, or until either you or the target die. While the target is marked, you gain the following benefits:",
+                {
+					"type":"list",
+					"items":[
+						"Damage rolls you make against the creature deal extra damage equal to your spell attack modifier.",
+						"Attacks made by you or your allies score critical hits against the creature on a roll of 19–20.",
+						"The creature makes a Dexterity saving throw or it becomes outlined in a nimbus of light (of a color chosen by you) for the duration. This nimbus of light negates the benefits of invisibility on the creature."
+					]
+				},
+                "If the marked target is not killed or captured within 1 hour, you have disadvantage on melee weapon attacks made against other creatures until you finish a short or long rest.",
+                "You gain an additional use of this feature at 15th level. You regain all spent uses of this feature whenever you finish a short or long rest."
+			],
+			"source":"a5eto5e",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"a5eto5e",
+			"level":7,
+			"header":2
+		},
+		{
+			"name":"Divine Justice",
+			"source":"a5eto5e",
+			"page":10,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"a5eto5e",
+			"level":15,
+			"header":2,
+			"entries":[
+				"{@i 15th-level Inquisitor feature}",
+				"Starting at 15th level, your power is so great that you no longer need to know a heretic’s name or wrongdoing in order to bestow punishment—it’s as if you can read their soul. When you use Mark of the Heretic, you need only point at a creature to mark it. Additionally, when a creature marked by this feature dies, you can apply the mark to another creature you can see within 30 feet of you without expending another use of Mark of the Heretic."
+			]
+		},
+		{
+			"name":"Ear for Deceit",
+			"source":"a5eto5e",
+			"page":10,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Inquisitor",
+			"subclassSource":"a5eto5e",
+			"level":20,
+			"header":2,
+			"entries":[
+				"{@i 20th-level Inquisitor feature}",
+				"At 20th level, you no longer question the motives of those around you as your refined instincts easily sniff out dishonesty. When listening to a creature speak, provided you share at least one language, you are immediately aware if it is being dishonest— though you have no special ability to obtain the truth without using your Channel Divinity. Creatures protected from divination, such as by the nondetection spell, are immune to this feature."
+			]
+		}
+	]
+}
